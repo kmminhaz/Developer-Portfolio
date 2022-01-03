@@ -2,30 +2,43 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
+
 section{
-    display: flex;
     margin-bottom: 200px;
 }
+
+.flexible-container{
+    display: flex;
+}
+
 .Top-Section{
     background-image: url("images/background/top-banner.png");
     background-repeat: no-repeat;
+}
+
+p{
     text-align: justify;
 }
+
 h1{
     font-size: 50px;
 }
-.name{
+
+.orange-color{
     color: orange;
 }
+
 .half-width{
     width: 50%;
     padding-left: 2%;
 }
+
 .intro-image img{
     width: 85%;
     min-height: 100px;
     max-height: 650px;
 }
+
 .linkButton{
     text-decoration: none;
     color: white;
@@ -33,10 +46,38 @@ h1{
     padding: 10px 40px;
     border-radius: 5px;
 }
+
 .Second-Section{
     background-image: url("images/background/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 10%;
-    text-align: justify;
+}
+
+.parent-of-thired-section{
+    background-image: url("images/background/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.card-view{
+    box-shadow: 10px 10px 70px 10px #6d6969;
+    margin: 5%;
+    border-image: linear-gradient(salmon, orange);
+}
+
+#left-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+#right-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
