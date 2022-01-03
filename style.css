@@ -2,10 +2,14 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
-.header{
+section{
     display: flex;
+    margin-bottom: 200px;
+}
+.Top-Section{
     background-image: url("images/background/top-banner.png");
     background-repeat: no-repeat;
+    text-align: justify;
 }
 h1{
     font-size: 50px;
@@ -13,19 +17,26 @@ h1{
 .name{
     color: orange;
 }
-.intro{
+.half-width{
     width: 50%;
     padding-left: 2%;
 }
-.intro img{
+.intro-image img{
     width: 85%;
     min-height: 100px;
     max-height: 650px;
 }
-.hireMe-Button{
+.link-button{
     text-decoration: none;
     color: white;
     background-image: linear-gradient(salmon, orange);
     padding: 10px 40px;
     border-radius: 5px;
+}
+.Second-Section{
+    background-image: url("images/background/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 150px;
+    text-align: justify;
 }
