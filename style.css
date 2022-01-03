@@ -1,0 +1,31 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.header{
+    display: flex;
+    background-image: url("images/background/top-banner.png");
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 50px;
+}
+.name{
+    color: orange;
+}
+.intro{
+    width: 50%;
+    padding-left: 2%;
+}
+.intro img{
+    width: 85%;
+    min-height: 100px;
+    max-height: 650px;
+}
+.hireMe-Button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(salmon, orange);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
